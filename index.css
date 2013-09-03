@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	background-color: #f1f1f1;
+}
+
+#menu{
+	width: 170px;
+	height: 771px;
+	border-right: solid 1px;
+	position: absolute;
+	
+}
+
+#content{
+	position: absolute;
+	left: 190px;
+	width: 800px;
+	height: 771px;
+}
+
+ul{
+	list-style-type: none;
+	margin-left: -50px;
+}
+
+ul li{
+	font-size: 24px;
+	margin-bottom: 28px;
+	text-align: center;
+}
