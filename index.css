@@ -1,68 +1,129 @@
 @charset "utf-8";
 /* CSS Document */
 
+/* Website background and FONT */
 *{
 	background-color: #00000;
 	font-family: 'Abel', sans-serif;
-
 }
 
+/* TEXT */
+/* Photography - "Coming Soon" */
+#Photography h1{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -100px;
+	margin-top: -50px;
+}
+
+/* HOME - "Kevin Choy" */
+#Home p{
+	font-size: 80px;	
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	top: 20%;
+	left: 50%;
+	margin-left: -23.5%;
+	position: absolute;
+	text-align: center;
+}
+
+
+
+
+
+/* POSITIONING BOXES */
+/* Menu Sidebar POSITION */
 #menu{
 	width: 13%;
 	height: 100%;
 	border-right: solid 1px;
 	position: absolute;
 }
-
-#Home p{
-	font-size: 80px;	
-	text-align: center;
-	padding: 0;
-	margin: 0;
-}
-
-table{
-	margin: auto;
-	border: 1;
-	border-spacing: 50px 50px 50px 50px;
-}
-
-td{
-	vertical-align:top;
-	text-align:center;
-	font-size: 24px;
-	height: 150px;
-	width: 150px;
-}
-
-table td, table th {
-    border: 1px solid black;
-}
-
-#menu ul li:nth-child(1){
-	background-color: #f1f1f1;
-}
-
-
-div{
+/* Menu CONTENT POSITION */
+#Resume, #Photography, #Contact_Me, #Home{
 	position: absolute;
 	left: 15%;
 	width: 85%;
 	height: 100%;
 }
 
+#Music_Lessons{
+	position: absolute;
+	left: 15%;
+	width: 39%;
+	height: 100%;	
+}
+/* Music CALENDAR POSITION */
 #Music_Lessons2{
 	position: absolute;
-	left: 50%;
-	width: 50%;
+	left: 55%;
+	width: 45%;
 	height: 100%;
 }
 
+
+
+
+/* ICONS! */
+/* Center ICONS in HOME + CONTACT */
+#main{
+	border: 1;
+	border-spacing: 4% 4% 4% 4%;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	margin-top: -7%;
+	margin-left: -40%;
+}
+#main td{
+	height: 150px;
+	width: 150px;
+	border-style: solid;
+	border-width: 0px;
+	border-width: 1px;
+}
+
+.all{
+	height:150px;
+	width:150px;
+}
+
+.mail{
+	height: 150px;
+	width: 140px;
+	fill: #00cc00;
+}
+#contact{
+	border: 1;
+	border-spacing: 4% 4% 4% 4%;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	margin-top: -10%;
+	margin-left: -32%;
+}
+/* ICON = BOX */
+td{
+	vertical-align:top;
+	text-align:center;
+	font-size: 24px;
+
+}
+/* ICON BORDER */
+
+
+
+
+/*MENU STYLE*/
 ul{
 	list-style-type: none;
 	margin-left: -50px;
 }
 
+/*MENU STYLE*/
 ul li{
 	font-size: 24px;
 	margin-bottom: 28px;
