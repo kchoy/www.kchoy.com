@@ -60,7 +60,7 @@ $(function(){
 		$('nav').animate({width:'toggle'},500);
 		$('div').fadeOut(500);
 		$('#Resume').fadeIn(500);
-		$('#menu ul li:nth-child(2)').css("background-color", "#FFE8E8");
+		$('#menu ul li:nth-child(2)').css("background-color", "#FF7B7B");
 	});	
 	
 	//Click Music Lessons from HOME
@@ -69,7 +69,7 @@ $(function(){
 		$('div').fadeOut(500);
 		$('#Music_Lessons').fadeIn(500);
 		$('#Music_Lessons2').fadeIn(500);
-		$('#menu ul li:nth-child(3)').css("background-color", "#E1F7E1");
+		$('#menu ul li:nth-child(3)').css("background-color", "#7BFF84");
 	});	
 	
 	//Click Photography from HOME
@@ -77,7 +77,7 @@ $(function(){
 		$('nav').animate({width:'toggle'},500);
 		$('div').fadeOut(500);
 		$('#Photography').fadeIn(500);
-		$('#menu ul li:nth-child(4)').css("background-color", "#EBF3FF");
+		$('#menu ul li:nth-child(4)').css("background-color", "#7BBCFF");
 	});	
 	
 	//Click Photography from HOME
@@ -85,7 +85,7 @@ $(function(){
 		$('nav').animate({width:'toggle'},500);
 		$('div').fadeOut(500);
 		$('#Contact_Me').fadeIn(500);
-		$('#menu ul li:nth-child(5)').css("background-color", "#FFFFD8");
+		$('#menu ul li:nth-child(5)').css("background-color", "#FAFF7B");
 	});	
 	
 });
@@ -107,7 +107,7 @@ $(function(){
 		$('div').fadeOut(500)
 		$('ul li').css("background-color", "transparent");
 		$('#Resume').fadeIn(500);
-		$(this).css("background-color", "#FFE8E8");
+		$(this).css("background-color", "#FF7B7B");
 	});
 	
 	//Music Lessons
@@ -116,7 +116,7 @@ $(function(){
 		$('ul li').css("background-color", "transparent");
 		$('#Music_Lessons').fadeIn(500);
 		$('#Music_Lessons2').fadeIn(500);
-		$(this).css("background-color", "#E1F7E1");
+		$(this).css("background-color", "#7BFF84");
 	});
 	
 	//Photography
@@ -124,7 +124,7 @@ $(function(){
 		$('div').fadeOut(500)
 		$('ul li').css("background-color", "transparent");
 		$('#Photography').fadeIn(500);
-		$(this).css("background-color", "#EBF3FF");
+		$(this).css("background-color", "#7BBCFF");
 	});
 	
 	//Contact Me
@@ -132,7 +132,7 @@ $(function(){
 		$('div').fadeOut(500)
 		$('ul li').css("background-color", "transparent");
 		$('#Contact_Me').fadeIn(500);
-		$(this).css("background-color", "#FFFFD8");
+		$(this).css("background-color", "#FAFF7B");
 		});
 });
 //----------------------------------------------------------------------------

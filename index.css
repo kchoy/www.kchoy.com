@@ -8,31 +8,13 @@
 }
 
 /* TEXT */
-/* Photography - "Coming Soon" */
-#Photography h1{
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	margin-left: -100px;
-	margin-top: -50px;
-}
-
 /* HOME - "Kevin Choy" */
 #Home p{
 	font-size: 80px;	
 	text-align: center;
+	margin-top: 10%;
 	padding: 0;
-	margin: 0;
-	top: 20%;
-	left: 50%;
-	margin-left: -23.5%;
-	position: absolute;
-	text-align: center;
 }
-
-
-
-
 
 /* POSITIONING BOXES */
 /* Menu Sidebar POSITION */
@@ -43,9 +25,17 @@
 	position: absolute;
 }
 /* Menu CONTENT POSITION */
-#Resume, #Photography, #Contact_Me, #Home{
+#Resume, #Photography{
 	position: absolute;
 	left: 15%;
+	width: 85%;
+	height: 100%;
+}
+
+#Contact_Me{
+	margin-top: 17%;
+	position: absolute;
+	left: 12%;
 	width: 85%;
 	height: 100%;
 }
@@ -64,20 +54,15 @@
 	height: 100%;
 }
 
-
-
-
 /* ICONS! */
 /* Center ICONS in HOME + CONTACT */
 #main{
 	border: 1;
+	position: relative;
 	border-spacing: 4% 4% 4% 4%;
-	top: 50%;
-	left: 50%;
-	position: absolute;
-	margin-top: -7%;
-	margin-left: -40%;
+	margin: auto;
 }
+
 #main td{
 	height: 150px;
 	width: 150px;
@@ -98,13 +83,11 @@
 }
 #contact{
 	border: 1;
+	position: relative;
 	border-spacing: 4% 4% 4% 4%;
-	top: 50%;
-	left: 50%;
-	position: absolute;
-	margin-top: -10%;
-	margin-left: -32%;
+	margin: auto;
 }
+
 /* ICON = BOX */
 td{
 	vertical-align:top;
